@@ -78,7 +78,6 @@ class Grabber
 
         if (isset($matches[1]) && $matches[1]) {
             $data = json_decode($matches[1], true);
-            //print_r($data);
 
             if (isset($data['entry_data']['PostPage'][0]['graphql']['shortcode_media'])) {
                 $shortcode_media = $data['entry_data']['PostPage'][0]['graphql']['shortcode_media'];
