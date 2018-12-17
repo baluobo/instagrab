@@ -1,0 +1,19 @@
+{
+    "name": "baluobo/instagrab",
+    "description": "",
+    "keywords": ["php", "instagrab"],
+    "homepage": "http://github.com/baluobo/instagrab",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wei Peng"
+        }
+    ],
+    "require": {
+        "rmccue/requests": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {"Baluobo\\": "src"}
+    }
+}
