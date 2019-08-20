@@ -1,6 +1,6 @@
 <?php
 
-namespace Baluobo\Instagrab;
+namespace Daqimei\Instagrab;
 
 use Exception;
 use DOMDocument;
